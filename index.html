@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Mohammed Sayed | Portfolio</title>
+  <link rel="stylesheet" href="style.css"/>
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:700,400&display=swap" rel="stylesheet">
+  <!-- Font Awesome for navbar icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"/>
+</head>
+<body>
+  <!-- Background Video -->
+  <video autoplay muted loop id="bg-video">
+    <source src="assets/bgvideo.mp4.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+  <div id="bg-gradient"></div>
+
+  <!-- Intro Animation Overlay -->
+  <div id="intro-overlay">
+    <div class="intro-content">
+      <img src="assets/Profilepic.jpg" alt="Profile" class="intro-profile" id="introProfileImg" />
+      <h1>Welcome to My Portfolio</h1>
+    </div>
+  </div>
+
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="logo"><i class="fa-solid fa-code"></i> Mohammed Sayed</div>
+    <ul>
+      <li><a href="#about"><i class="fa-solid fa-user"></i> <span>About</span></a></li>
+      <li><a href="#skills"><i class="fa-solid fa-laptop-code"></i> <span>Skills</span></a></li>
+      <li><a href="#projects"><i class="fa-solid fa-diagram-project"></i> <span>Projects</span></a></li>
+      <li><a href="#education"><i class="fa-solid fa-graduation-cap"></i> <span>Education</span></a></li>
+      <li><a href="#contact"><i class="fa-solid fa-envelope"></i> <span>Contact</span></a></li>
+    </ul>
+  </nav>
+
+  <!-- Main Content -->
+  <main>
+    <section id="about" class="section aos">
+      <div class="section-content">
+        <img src="assets/Profilepic.jpg" alt="Profile Photo" class="profile-img" id="aboutProfileImg"/>
+        <div class="about-text">
+          <h2>About Me</h2>
+          <p>
+            Enthusiastic and self-motivated Computer Science (AI) student at Sathyabama University, eager to gain real-world experience through a hands-on internship. Strong foundation in web development, problem-solving, and communication, with a passion for continuous learning and innovation in technology.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section aos">
+      <h2>Skills</h2>
+      <div class="skills-list">
+        <div>
+          <span>HTML & CSS</span>
+          <div class="bar"><div class="bar-fill" data-width="90%"></div></div>
+        </div>
+        <div>
+          <span>JavaScript</span>
+          <div class="bar"><div class="bar-fill" data-width="88%"></div></div>
+        </div>
+        <div>
+          <span>Python</span>
+          <div class="bar"><div class="bar-fill" data-width="85%"></div></div>
+        </div>
+        <div>
+          <span>Team Leadership</span>
+          <div class="bar"><div class="bar-fill" data-width="90%"></div></div>
+        </div>
+        <div>
+          <span>Problem Solving</span>
+          <div class="bar"><div class="bar-fill" data-width="89%"></div></div>
+        </div>
+        <div>
+          <span>Fast Learning Ability</span>
+          <div class="bar"><div class="bar-fill" data-width="95%"></div></div>
+        </div>
+        <div>
+          <span>Communication Skills</span>
+          <div class="bar"><div class="bar-fill" data-width="96%"></div></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section aos">
+      <h2>Projects</h2>
+      <div class="projects-list">
+        <div class="project-card">
+          <h3>Web Development Projects</h3>
+          <ul>
+            <li>Built responsive websites using HTML, CSS, JS, and React</li>
+            <li>Integrated Firebase, Node.js, and basic backend functions</li>
+            <li>Focus on clean UI/UX and functionality</li>
+          </ul>
+        </div>
+        <div class="project-card">
+          <h3>Bus Tracking Web App</h3>
+          <ul>
+            <li>Real-time bus route using Google Maps API</li>
+            <li>Designed and hosted in React; backend with Node.js</li>
+          </ul>
+        </div>
+        <div class="project-card">
+          <h3>Smart Rover – Explorer X</h3>
+          <ul>
+            <li>IoT rover with Arduino, ESP32, and 3D printing</li>
+            <li>Mobile monitoring for real-time data and alerts</li>
+          </ul>
+        </div>
+        <div class="project-card">
+          <h3>Vision Alexa Robot</h3>
+          <ul>
+            <li>Voice & face-detecting assistant using ESP32 and OpenCV</li>
+            <li>Integrated Alexa for smart interaction</li>
+          </ul>
+        </div>
+        <div class="project-card">
+          <h3>Event Registration Website</h3>
+          <ul>
+            <li>Created for a tech fest registration system</li>
+            <li>Live links, admin dashboard, stats, and more</li>
+            <li>Developed with HTML, JS, Bootstrap</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="education" class="section aos">
+      <h2>Education</h2>
+      <p>
+        <strong>Bachelor of Engineering in Computer Science and Engineering (with specialization in Artificial Intelligence)</strong><br/>
+        Sathyabama Institute of Science & Technology<br/>
+        <span class="edu-details">Sholinganallur, Chennai, Tamil Nadu</span>
+      </p>
+    </section>
+
+    <section id="contact" class="section aos">
+      <h2>Contact</h2>
+      <div class="contact-list">
+        <p><i class="fa-solid fa-envelope"></i> <strong>Email:</strong> mohammedsayed@gmail.com</p>
+        <p><i class="fa-solid fa-phone"></i> <strong>Phone:</strong> +91 9566222404</p>
+        <p><i class="fa-solid fa-location-dot"></i> <strong>Location:</strong> Chennai, Tamilnadu, India</p>
+        <p>
+          <a href="https://www.linkedin.com/in/mohammed-sayed-2632a3a3b" target="_blank"><i class="fa-brands fa-linkedin"></i> LinkedIn</a>
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <!-- Download Resume Button at Bottom -->
+  <div class="resume-download">
+    <a href="assets/sayedresume.pdf" class="btn" download>
+      <i class="fa-solid fa-download"></i> Download Resume
+    </a>
+  </div>
+
+  <footer>
+    &copy; 2024 Mohammed Sayed. All rights reserved.
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
